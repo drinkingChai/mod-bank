@@ -36,4 +36,4 @@ this.$html.on('click', 'button', function() {
   store.setData('bankName', newData)
 })
 ```
-Please find the examples in the repo
+Please find the examples in the repo in `public/js`
