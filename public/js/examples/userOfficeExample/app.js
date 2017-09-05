@@ -1,0 +1,12 @@
+let userOfficesStore = new Store()
+userOfficesStore.addBank('users', users)
+userOfficesStore.addBank('offices', offices)
+
+let newOfficeForm = new OfficeForm('#office-form', userOfficesStore, 'users', 'offices')
+let newUserForm = new UserForm('#user-form', userOfficesStore, 'users')
+let newUserList = new UserList('#user-list', userOfficesStore, 'users', 'offices')
+let newOfficeList = new OfficeList('#office-list', userOfficesStore, 'users', 'offices')
+newOfficeForm.render()
+newUserForm.render()
+newUserList.render()
+newOfficeList.render()
