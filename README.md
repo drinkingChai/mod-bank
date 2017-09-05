@@ -26,8 +26,9 @@ class NewMod extends Mod {
 }
 ```
 Change the `render` function for your module
-Call `setData` with the updated data either anywhere here
-Example:
+Call `setData` with the updated data anywhere
+
+**Example:**
 ```javascript
 let store = this.store
 this.$html = $(`<button></button>`)
