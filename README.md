@@ -45,4 +45,5 @@ render() {
   })
 }
 ```
-Please find the examples in the repo in `public/js`
+
+Examples in the [demo branch](https://github.com/drinkingChai/mod-bank/tree/demo).
