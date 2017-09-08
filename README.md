@@ -5,10 +5,9 @@ A html module and front end databank. Modules can modify the data in the front e
 
 ### Getting Started
 ---
-Download the files `Mod.js` and `Store.js` from `public/js` and include them in your html file
+Download the `ModBank.js` and include it in your html file
 ```html
-<script src="js/Store.js" charset="utf-8"></script>
-<script src="js/Mod.js" charset="utf-8"></script>
+<script src="js/ModBank.js" charset="utf-8"></script>
 ```
 
 ### Concept
