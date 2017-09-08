@@ -9,9 +9,11 @@ class TestMod extends Mod {
 
     this.$html = $(`
       <div>
+        <h4>Component A</h4>
+        <hr/>
         <p>Strings: ${strings}</p>
         <p>Numbers: ${numbers}</p>
-        <button class='a'>A</button> <button class='b'>B</button>
+        <button class='a btn-blue'>Update A</button> <button class='b btn-orange'>Update A & B</button>
       </div>
     `)
     this.$html.on('click', 'button.a', function() {
@@ -39,6 +41,8 @@ class User extends Mod {
 
     this.$html = $(`
       <div>
+        <h4>Component B</h4>
+        <hr/>
         <p>${user.name}</p>
         <p>${user.stuff}</p>
         <p>${numbers}</p>

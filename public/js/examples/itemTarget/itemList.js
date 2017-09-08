@@ -10,10 +10,12 @@ class ItemList extends Mod {
 
     this.$html = $(`
       <div>
+        <h4>Item target (spaghetti code)</h4>
+        <hr/>
         <ul>
           ${ items.reduce((lis, item)=> {
               return lis += `
-                <li data-id=${item.id}>I have ${item.count} ${item.name}<button>Delete</button></li>
+                <li data-id=${item.id}>I have ${item.count} ${item.name}<button class="btn-red">Delete</button></li>
               `;
             }, '')}
         </ul>

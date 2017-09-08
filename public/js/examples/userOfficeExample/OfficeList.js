@@ -18,7 +18,7 @@ class OfficeList extends Mod {
                   <p>Lng: ${office.lng}</p>
                 </div>
                 <p class="text-bold">Users: ${office.users.length}</p>
-                <button class="btn">Delete</button>
+                <button class="btn-red">Delete</button>
               </li>
             `
           }, '')}

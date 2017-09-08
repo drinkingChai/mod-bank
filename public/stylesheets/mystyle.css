@@ -1,0 +1,4 @@
+button { margin-right: 5px; }
+#item-list button { margin-left: 5px; margin-bottom: 5px; }
+
+[class*='col-'] .inner { background-color: #DDDDDD; }

@@ -3,25 +3,41 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/mystyle.css">
   </head>
   <body>
 
-    <h1>Components!</h1>
+    <nav>
+      <li class="logo"><a href="/">Components!</a></li>
+    </nav>
+    
+    <div class="row">
+      <div class="col-3">
+        <div id="test"></div>
+      </div>
+      <div class="col-3">
+        <div id="user"></div>
+      </div>
+      <div class="col-3">
+        <div id="moddy"></div>
+        <div id="foods"></div>
+      </div>
+      <div class="col-3">
+        <div id="item-list"></div>
+      </div>
+    </div>
 
-    <main>
-      <div id="test"></div>
-      <div id="user"></div>
 
-      <div id="user-form"></div>
-      <div id="office-form"></div>
-      <div id="user-list"></div>
-      <div id="office-list"></div>
-
-      <div id="moddy"></div>
-      <div id="foods"></div>
-
-      <div id="item-list"></div>
-    </main>
+    <div class="row">
+      <div class="col-12"><h4>Complex</h4><hr></div>
+      <div id="user-form" class="col-6"></div>
+      <div id="office-form" class="col-6"></div>
+    </div>
+    <div class="row">
+      <div id="user-list" class="col-6"></div>
+      <div id="office-list" class="col-6"></div>
+    </div>
 
   </body>
 

@@ -9,7 +9,7 @@ class OfficeForm extends Mod {
 
     this.$html = $(`
       <div>
-        <h3>New office!</h3> <input type="text"/>
+        <h4>New office!</h4> <input type="text"/>
       </div>
     `)
 

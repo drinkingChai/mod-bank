@@ -12,7 +12,7 @@ class UserList extends Mod {
         ${ users.reduce((lis, user)=> {
             return lis += `
               <li data-id="${user.id}" data-cur-office-id=${user.officeId}>
-                <h3 class="text-bold">${ user.name }</h3>
+                <h4 class="text-bold">${ user.name }</h4>
                 <select>
                   ${ offices.reduce((opts, off)=> {
                       return opts += `
@@ -20,7 +20,7 @@ class UserList extends Mod {
                       `
                     }, '<option>---</option>')}
                 </select>
-                <button class="btn">Delete!</button>
+                <button class="btn-red">Delete!</button>
               </li>
             `
           }, '')}

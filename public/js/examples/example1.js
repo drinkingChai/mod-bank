@@ -9,8 +9,10 @@ class Foods extends Mod {
 
     this.$html = $(`
       <div>
+        <h4>Component D</h4>
+        <hr/>
         ${ foods.reduce((lis, food)=> {
-          return lis += `<button data-name="${food}">${food}</button>`
+          return lis += `<button data-name="${food}" class="btn-blue">${food}</button>`
           }, '') }
       </div>
     `)
@@ -34,7 +36,11 @@ class MyUser extends Mod {
       user = this.store.getData('user')
 
     this.$html = $(`
-      <p>${user.name} likes ${user.likesFoods}</p>
+      <div>
+        <h4>Component C</h4>
+        <hr/>
+        <p>${user.name} likes ${user.likesFoods}</p>
+      </div>
     `)
 
     $(this.id).empty()

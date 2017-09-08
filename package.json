@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:dev": "GOOGLE_API_KEY=AIzaSyCQjeeZDjwVk0RgWwTp3FYBlmkaUfoDXuw nodemon app.js --ignore public/",
+    "start:dev": "nodemon app.js --ignore public/",
     "build:css": "node-sass -w assets/stylesheets/ -o public/stylesheets/"
   },
   "keywords": [],

@@ -8,8 +8,8 @@ class UserForm extends Mod {
 
     let $form = $(`
       <div>
-        <h3>Name:</h3> <input type="text"/>
-        <button class="btn">Add</button>
+        <h4>Name:</h4> <input type="text"/>
+        <button class="btn-olive">Add</button>
       </div>
     `);
 
